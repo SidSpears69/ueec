@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body class="page__body">
+  <header class="page-header">
+    <a href="javascript:void(0)" class="page-header__logo logo">
+      <img src="img/logo.png" alt="Ukrainian Engineering Expert Center" width="195" height="45" class="logo__img">
+    </a>
+    <button type="button" aria-controls="main-menu" aria-expanded="false" class="page-header__open-menu" aria-label="Открыть меню"></button>
+    <nav class="page-header__menu menu">
+      <div class="menu__content" id="main-menu">
+        <div class="menu__top">
+          <a href="javascript:void(0)" class="menu__logo logo">
+            <img src="img/logo-white.png" alt="Ukrainian Engineering Expert Center" width="207" height="50" class="logo__img">
+          </a>
+          <button type="button" class="menu__close-button" aria-label="Закрыть меню"></button>
+        </div>
+        <ul class="menu__navigation">
+          <li class="menu__item">
+            <a href="javascript:void(0)" class="menu__link">О компании</a>
+          </li>
+          <li class="menu__item">
+            <a href="javascript:void(0)" class="menu__link">Услуги</a>
+          </li>
+          <li class="menu__item">
+            <a href="javascript:void(0)" class="menu__link">Сертификаты</a>
+          </li>
+          <li class="menu__item">
+            <a href="javascript:void(0)" class="menu__link">Контакты</a>
+          </li>
+        </ul>
+        <ul class="menu__contacts">
+          <li class="menu__contacts-item">
+            <svg class="menu__contacts-icon" role="img" width="24" height="24" fill="#ffffff">
+              <use xlink:href="img/sprite.svg#icon-phone"></use>
+            </svg>
+            <a href="tel:+380442283809" class="menu__contacts-phone">
+              +38 (044) 228-38-09</a>
+          </li>
+          <li class="menu__contacts-item menu__contacts-item--adress">
+            <svg class="menu__contacts-icon" role="img" width="24" height="24" fill="#ffffff">
+              <use xlink:href="img/sprite.svg#icon-location"></use>
+            </svg>
+            г.Киев, б-р Леси Украинки, 26, корпус 1, оф. 25
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="page__main">
+    <section class="primary-section">
+      <div class="primary-section__top">
+        <h1 class="primary-section__title">Команда профессионалов в сфере оформления документов</h1>
+        <p class="primary-section__text">С нами вы можете быть спокойны за результат</p>
+        <a href="#form" class="button primary-section__button">Получить консультацию</a>
+      </div>
+      <ul class="primary-section__features features">
+        <li class="features__item">
+          <div class="features__img-wrapper">
+            <img src="img/icon-business.svg" alt="" aria-hidden="true" width="26" height="26" class="features__img">
+          </div>
+          <p class="features__title">12 лет</p>
+          <p class="features__text">На рынке технических экспертиз</p>
+        </li>
+        <li class="features__item">
+          <div class="features__img-wrapper">
+            <img src="img/icon-wrench.svg" alt="" aria-hidden="true" width="26" height="26" class="features__img">
+          </div>
+          <p class="features__title">1000+</p>
+          <p class="features__text">Проведено техобследований клиентов</p>
+        </li>
+        <li class="features__item">
+          <div class="features__img-wrapper">
+            <img src="img/icon-heart.svg" alt="" aria-hidden="true" width="22" height="20" class="features__img">
+          </div>
+          <p class="features__title">300+</p>
+          <p class="features__text">Довольных клиентов</p>
+        </li>
+      </ul>
+    </section>
+    <section class="section section--about">
+      <h2 class="section__title">О компании</h2>
+      <figure class="section__photo photo">
+        <div class="photo__wrapper">
+          <img src="img/ananiev.jpg" alt="Фотография Ананьева Евгения Александровича" class="photo__img">
+        </div>
+        <figcaption class="photo__description">
+          <p class="photo__title">Ананьев Евгений Александрович</p>
+          <p class="photo__text">Главный эксперт</p>
+        </figcaption>
+      </figure>
+      <p class="section__subtitle">Ukrainian Engineering Expert Center — агенство технических экспертиз.
+        Которому можно довериться!</p>
+      <p class="section__text">
+        Высокий уровень вовлечения представителей целевой аудитории является чётким доказательством простого факта:
+        современная методология разработки предопределяет высокую востребованность как самодостаточных, так и внешне
+        зависимых концептуальных решений. Разнообразный и богатый опыт говорит нам, что глубокий уровень погружения
+        играет важную роль в формировании модели... <a href="javascript:void(0);">детальнее</a>
+      </p>
+    </section>
+    <section class="section">
+      <h2 class="section__title">Наши услуги</h2>
+      <ul class="section__services services">
+        <li class="services__item">
+          <article class="card-service">
+            <h3 class="card-sevice__title">Техобследование</h3>
+            <img src="img/tech.jpg" alt="Сотрудник проверяет здание" class="card-service__img">
+            <p class="card-service__text">Получение достоверной информации о состоянии здания (сооружения)
+              и их конструкций</p>
+            <a href="javascript:void(0);" class="button card-service__button">Подробнее
+              <img src="img/icon-arrow.svg" alt="" aria-hidden="true" width="21" height="8">
+            </a>
+          </article>
+        </li>
+        <li class="services__item">
+          <article class="card-service">
+            <h3 class="card-sevice__title">МГН</h3>
+            <img src="img/mgn.jpg" alt="Удобные дорожки для колясок" class="card-service__img">
+            <p class="card-service__text">Обследование зданий на предмет доступности для людей с инвалидностью и
+              маломобильных групп населения (МГН)</p>
+            <a href="javascript:void(0);" class="button card-service__button">Подробнее
+              <img src="img/icon-arrow.svg" alt="" aria-hidden="true" width="21" height="8">
+            </a>
+          </article>
+        </li>
+        <li class="services__item">
+          <article class="card-service">
+            <h3 class="card-sevice__title">Энергоаудит</h3>
+            <img src="img/audit.jpg" alt="Сотрудник проверяет трубы на утечки" class="card-service__img">
+            <p class="card-service__text">Энергоаудит - процедура исследования и улучшения энергоэффективности</p>
+            <a href="javascript:void(0);" class="button card-service__button">Подробнее
+              <img src="img/icon-arrow.svg" alt="" aria-hidden="true" width="21" height="8">
+            </a>
+          </article>
+        </li>
+      </ul>
+    </section>
+    <section class="section">
+      <h2 class="section__title">Сертификаты</h2>
+      <p class="section__subtitle">Наши достижения:</p>
+      <div class="section__slider slider">
+        <ul class="slider__slides">
+          <li class="slider__item">
+            <img src="img/certificate.jpg" alt="Квалификационный сертификат" width="280" height="395">
+          </li>
+        </ul>
+        <div class="slider__controls">
+          <button class="slider__button slider__button--prev" aria-label="Предыдущий слайд" type="button"></button>
+          <ul class="slider__pagination pagination">
+            <li class="pagination__item">
+              <button class="pagination__button pagination__button--active" aria-label="Первый слайд" type="button"></button>
+            </li>
+            <li class="pagination__item">
+              <button class="pagination__button" aria-label="Второй слайд" type="button"></button>
+            </li>
+            <li class="pagination__item">
+              <button class="pagination__button" aria-label="Третий слайд" type="button"></button>
+            </li>
+            <li class="pagination__item">
+              <button class="pagination__button" aria-label="Четвертый слайд" type="button"></button>
+            </li>
+            <li class="pagination__item">
+              <button class="pagination__button" aria-label="Пятый слайд" type="button"></button>
+            </li>
+            <li class="pagination__item">
+              <button class="pagination__button" aria-label="Шестой слайд" type="button"></button>
+            </li>
+          </ul>
+          <button class="slider__button slider__button--next" aria-label="Следующий слайд" type="button"></button>
+        </div>
+      </div>
+    </section>
+    <section class="section section--form" id="form">
+      <h2 class="section__title section__title--small">Оставить заявку</h2>
+      <form action="/" method="POST" class="section__form form">
+        <label class="form__item">
+          <span class="visually-hidden">Ваше имя:</span>
+          <input type="text" placeholder="Имя" class="form__input">
+        </label>
+        <label class="form__item">
+          <span class="visually-hidden">Ваш телефон:</span>
+          <input type="tel" placeholder="Телефон" class="form__input">
+        </label>
+        <button type="submit" class="button form__button">Написать</button>
+      </form>
+    </section>
+    <section class="section section--contacts">
+      <div class="section__contacts contacts">
+        <h2 class="visually-hidden">Наши контакты</h2>
+        <img src="img/logo.png" alt="Ukrainian Engineering Expert Center" class="contacts__logo">
+        <ul class="contacts__items">
+          <li class="contacts__item contacts__item--address">
+            <svg class="contacts__icon" role="img" width="14" height="18" fill="#4E8AFF">
+              <use xlink:href="img/sprite.svg#icon-location"></use>
+            </svg>
+            г.Киев, б-р Леси Украинки, 26, корпус 1, оф. 25
+          </li>
+          <li class="contacts__item">
+            <svg class="contacts__icon" role="img" width="24" height="24" fill="#4E8AFF">
+              <use xlink:href="img/sprite.svg#icon-phone"></use>
+            </svg>
+            <a href="tel:+380442283809" class="contacts__phone">+38 (044) 228-38-09</a>
+          </li>
+          <li class="contacts__item">
+            <svg class="contacts__icon" role="img" width="24" height="24" fill="#4E8AFF">
+              <use xlink:href="img/sprite.svg#icon-phone"></use>
+            </svg>
+            <a href="tel:+380672003322" class="contacts__phone">+38 (067) 200-33-22</a>
+          </li>
+          <li class="contacts__item">
+            <svg class="contacts__icon" role="img" width="24" height="24" fill="#4E8AFF">
+              <use xlink:href="img/sprite.svg#icon-phone"></use>
+            </svg>
+            <a href="tel:+380506118820" class="contacts__phone">+38 (050) 611-88-20</a>
+          </li>
+        </ul>
+      </div>
+      <img src="img/map.jpg" alt="Наш адрес - г.Киев, б-р Леси Украинки, 26, корпус 1, оф. 25" width="320" height="418">
+    </section>
+  </main>
+  <footer class="page-footer">
+    <div class="page-footer__content">
+      <a href="javascript:void(0)" class="page-footer__logo logo">
+        <img src="img/logo-white.png" alt="Ukrainian Engineering Expert Center" width="229" height="52" class="logo__img">
+      </a>
+      <p class="page-footer__copy">© 2021 Все права защищены</p>
+      <ul class="page-footer__menu menu-footer">
+        <li class="menu-footer__item">
+          <a href="javascript: void(0);" class="menu-footer__link">О компании</a>
+        </li>
+        <li class="menu-footer__item">
+          <a href="javascript: void(0);" class="menu-footer__link">Услуги</a>
+        </li>
+        <li class="menu-footer__item">
+          <a href="javascript: void(0);" class="menu-footer__link">Сертификаты</a>
+        </li>
+        <li class="menu-footer__item">
+          <a href="javascript: void(0);" class="menu-footer__link">Контакты</a>
+        </li>
+      </ul>
+      <ul class="page-footer_lang-toggler lang-toggler">
+        <li class="lang-toggler__item">
+          <a class="lang-toggler__link" aria-label="Выбранный язык сайта русский">Ru</a>
+        </li>
+        <li class="lang-toggler__item">
+          <a href="javascript:void(0)" class="lang-toggler__link" aria-label="Поменять язык сайта на украинский">Ua</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
